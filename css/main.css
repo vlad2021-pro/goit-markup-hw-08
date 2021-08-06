@@ -275,8 +275,31 @@ body {
   display: block;
 }
 
+.hero {
+  background-color: var(--color-baner);
+  background-image: url(/images/images/deckstope/bg-main.jpg);
+  padding: 168px 0;
+  width: 100%;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/images/deckstope/bg-main.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/images/tablet/bg-main.jpg);
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/images/mobile/bg-main@2x.jpg);
+  }
+}
+
 .hero-title {
-  color: black;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -287,7 +310,7 @@ body {
 
 @media screen and (max-width: 1199px) {
   .hero-title {
-    color: black;
+    color: var(--white-color);
     font-weight: 900;
     font-size: 26px;
     line-height: 1.6;
@@ -295,11 +318,6 @@ body {
     text-transform: uppercase;
     margin-bottom: 30px;
   }
-}
-
-.feat {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .section {
@@ -358,7 +376,6 @@ body {
 
 .section-features {
   list-style-type: none;
-  display: flex;
 }
 
 .features-list {
@@ -366,10 +383,6 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-}
-
-.advantages {
-  margin-right: 30px;
 }
 
 .advantages:last-child {
