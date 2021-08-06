@@ -6,12 +6,19 @@
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  margin-right: 93px;
+  // margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
   display: block;
   & :hover {
     color: var(--accent-color);
+  }
+  @media screen and (min-width: 480px) {
+    margin-right: 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
   }
 }
 

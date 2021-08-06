@@ -33,6 +33,9 @@
                 </li>
             </ul>
         </nav>
+        <button class="mobile-menu__button"><svg class="mobile-menu__icon" >
+            <use  href="./images/icons/mobile-menu.svg#icon-menu"></use>
+        </svg> </button>
         <ul class="contacts">
             <li class="contacts__item">
                 <a class="contacts__link" href="mailto:info@devstudio.com">
@@ -55,12 +58,18 @@
         
             <section class="hero">
             <div class="container">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/images/deckstope/bg-main.jpg 1x, ./images/images/deckstope/bg-main@2x.jpg 2x">
+                    <source media="(min-width: 768px)" srcset="./images/images/tablet/bg-main.jpg 1x, ./images/images/tablet/bg-main@2x.jpg 2x">
+                    <source media="(min-width: 480px)" srcset="./images/images/mobile/bg-main.jpg 1x, ./images/images/mobile/bg-main@2x.jpg 2x" >
+                    <img class="hero-img" src="./images/images/mobile/bg-main.jpg" alt="главный банер">
+                </picture>
                 <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
                 <button type=" button" class="hero__button" data-modal-open>Заказать услугу</button>
             </section>
             </div>
 
-        <section class="section feat">
+        <!-- <section class="section feat">
             <div class="container">
         <h2 class="visually-hidden">Наши преимущества</h2>
             <ul class="section-features">
@@ -107,8 +116,8 @@
                 </li>
             </ul>
             </div>
-        </section>
-        <section class="section">
+        </section> -->
+        <!-- <section class="section">
             <div class="container">
             <h2 class="section-title heading">Чем мы занимаемся</h2>
 
@@ -216,10 +225,10 @@
                             </a>
                         </li>
                     </ul>
-                    </div>
+                    </div> -->
 
-                </li>
-                <li class="masters-list">
+                <!-- </li> -->
+                <!-- <li class="masters-list">
                     <img src="./images/img3.jpg" alt=" Изображен Маркетолог " width="270" height="260">
                 <div class="team-colums">
                     <h3 class="team-list">Николай Тарасов</h3>
@@ -294,12 +303,12 @@
                     </ul>
                 </div>
 
-                </li>
+                </li> -->
 
-            </ul>
-            </div>
-        </section>
-        <section class="section-clients section">
+            <!-- </ul>
+            </div> -->
+        <!-- </section> -->
+        <!-- <section class="section-clients section">
             <div class="container">
                 <h2 class="clients-title">Постоянные клиенты</h2>
                 <ul class="clients-list">
@@ -347,10 +356,10 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
 
-    </main>
-    <footer class="footer">
+    <!-- </main> -->
+    <!-- <footer class="footer">
     
         <div class="container current-container">
             <div class="logo-container">
@@ -422,9 +431,9 @@
     
         
     
-    </footer>
+    </footer> -->
 
-<div class="backdrop is-hidden " data-modal>
+<!-- <div class="backdrop is-hidden " data-modal>
     <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
         <svg class="close-svg" width="18px" height="18px">
@@ -470,8 +479,8 @@
             <button type="submit" class="modal-form-btn">Отправить</button>
 
         
-</div>
-<script src="./JS/modal.js"></script>
+</div> -->
+<!-- <script src="./JS/modal.js"></script> -->
 </body> 
 
 </html>
