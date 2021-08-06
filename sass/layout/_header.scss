@@ -1,0 +1,113 @@
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.site-nav .site-nav__link {
+  color: var(--primary-texr-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+.site-nav__link,
+.current {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav .site-nav__link.current {
+  color: var(--accent-color);
+}
+.nav,
+.nav-current {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--accent-color);
+}
+
+.contacts__icon-envelope:hover,
+.contacts__icon-envelope:focus {
+  fill: var(--accent-color);
+}
+.contacts__icon-phone:hover,
+.contacts__icon-phone:focus {
+  fill: var(--accent-color);
+}
+.contacts__icon-envelope,
+.contacts__icon-phone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts {
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
+}
+.contacts__link {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  & {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.contacts-link-foot {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    & {
+      display: block;
+    }
+  }
+}

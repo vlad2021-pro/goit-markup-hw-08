@@ -1,0 +1,31 @@
+.header-nav {
+  border-bottom: 1px solid #ececec;
+}
+.nav-portfolio,
+.nav {
+  color: var(--primary-texr-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style-type: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    text-decoration: none;
+  }
+}
+.nav-portfolio {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-portfolio .nav-current {
+  color: var(--accent-color);
+  text-decoration: none;
+}
