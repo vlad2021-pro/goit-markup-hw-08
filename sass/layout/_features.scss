@@ -9,6 +9,18 @@
 .section-features {
   list-style-type: none;
   // display: flex;
+  @media screen and (min-width: 480px) {
+    margin-top: 30px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 94px;
+  }
 }
 
 .features-list {
@@ -17,10 +29,23 @@
   font-size: 14px;
   line-height: 1.7;
 }
+.advantages:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
 .advantages {
   // margin-right: 30px;
   &:last-child {
     margin-right: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 120px) / 4);
+    margin: 15px;
   }
 }
 

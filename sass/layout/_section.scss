@@ -1,11 +1,15 @@
-.feat {
-  //   padding-top: 94px;
-  //   padding-bottom: 94px;
-}
+// .feat {
+//   //   padding-top: 94px;
+//   //   padding-bottom: 94px;
+// }
 .section {
   padding-bottom: 94px;
 }
-
+.mobile-vers {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
 .section-title {
   color: var(--primary-texr-color);
   font-weight: 700;

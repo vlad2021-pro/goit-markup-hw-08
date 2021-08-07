@@ -275,6 +275,26 @@ body {
   display: block;
 }
 
+.mobile-menu__button {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-left: auto;
+  padding: 0;
+  z-index: 11;
+}
+
+.mobile-menu__button:active {
+  fill: var(--accent-color);
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-menu__button {
+    display: none;
+  }
+}
+
 .hero {
   background-color: var(--color-baner);
   background-image: url(/images/images/deckstope/bg-main.jpg);
@@ -322,6 +342,12 @@ body {
 
 .section {
   padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1199px) {
+  .mobile-vers {
+    display: none;
+  }
 }
 
 .section-title {
@@ -378,6 +404,27 @@ body {
   list-style-type: none;
 }
 
+@media screen and (min-width: 480px) {
+  .section-features {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-features {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-features {
+    margin-top: 94px;
+  }
+}
+
 .features-list {
   color: var(--title-text-color);
   font-weight: 400;
@@ -385,8 +432,28 @@ body {
   line-height: 1.7;
 }
 
+@media screen and (max-width: 767px) {
+  .advantages:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
 .advantages:last-child {
   margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantages {
+    flex-basis: calc((100% - 120px) / 4);
+    margin: 15px;
+  }
 }
 
 .advantages-icon {
@@ -400,14 +467,26 @@ body {
 }
 
 .team {
-  display: flex;
+  display: block;
   list-style-type: none;
-  margin-left: -30px;
-  margin-top: -30px;
+}
+
+@media screen and (min-width: 768px) {
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .masters-list {
-  margin-left: 30px;
   margin-top: 30px;
   background-color: var(--white-color);
 }
@@ -415,6 +494,20 @@ body {
 .masters-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .masters-list {
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .masters-list {
+    flex-basis: calc((100% - 120px) / 4);
+    margin: 15px;
+  }
 }
 
 .section-team {
@@ -435,7 +528,13 @@ body {
 .social-list {
   list-style-type: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .social-list {
+    justify-content: space-between;
+  }
 }
 
 .social-list-icon {
@@ -467,6 +566,18 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 480px) {
+  .head {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    margin-bottom: 50px;
+  }
+}
+
 .team-professional {
   color: var(--title-text-col);
   font-weight: 400;
@@ -481,6 +592,10 @@ body {
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.picture {
+  width: 100%;
 }
 
 .section-clients {
