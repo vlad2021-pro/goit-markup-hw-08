@@ -5,8 +5,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 1.14;
-  padding-bottom: 60px;
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .logo-footer {
@@ -20,8 +19,10 @@
   & :hover {
     color: var(--accent-color);
   }
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
 }
-
 .logo-white {
   color: var(--white-color);
   font-family: Raleway;
@@ -31,6 +32,9 @@
 }
 .footer-address {
   margin-top: 20px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
 }
 .address {
   color: var(--white-color);
@@ -82,25 +86,50 @@
 
 .social-footer {
   display: flex;
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+  }
 }
 .social-corner {
-  margin-left: 70px;
+  // margin-left: 70px;
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+  }
 }
 .current-container {
-  display: flex;
-  align-items: baseline;
+  // display: flex;
+  // align-items: baseline;
+  text-align: center;
+  @media screen and(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+  @media screen and(min-width:1200px) {
+    display: flex;
+    align-items: baseline;
+    text-align: left;
+    //   padding-left: 0px;
+    //   padding-right: 0px;
+  }
 }
 .sociale-title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--white-color);
-
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+  }
   margin-bottom: 20px;
 }
 
 .subscription {
-  margin-left: 93px;
+  // margin-left: 93px;
+  @media screen and (min-width: 480px) {
+    justify-content: center;
+  }
 }
 .subscription-title {
   font-size: 14px;
@@ -113,6 +142,9 @@
 
 .subscription-form {
   display: flex;
+  @media screen and (min-width: 480px) {
+    display: block;
+  }
 }
 
 .footer-input {

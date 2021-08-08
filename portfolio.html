@@ -33,6 +33,10 @@
             </li>
         </ul>
     </nav>
+    <button class="mobile-menu__button"><svg class="mobile-menu__icon">
+            <use class="mobile-menu__open" href="./images/icons/mobile-menu.svg#icon-menu"></use>
+            <use class="mobile-menu__close" href="./images/icons/mobile-menu.svg#icon-close"></use>
+        </svg> </button>
     <ul class="contacts">
         <li  class="contacts__item">
             <a href="mailto:info@devstudio.com" class="contacts__link">
@@ -73,7 +77,24 @@
             <li class="examples-box"> 
                 <a class="type-link" href=""> 
                     <div class="box-portfolio-img">
-            <img src="./images/Portfolio/img1.jpg" alt="Изображен макет сайт" width="370" height="294">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/deckstope/portfolio/img1.webp 1x, ./images/deckstope/portfolio/img@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 1200px)" srcset="./images/deckstope/portfolio/img.jpg 1x, ./images/deckstope/portfolio/img@2x.jpg 2x"
+                                type="image/jpeg">
+                            
+                            <source media="(min-width: 768px)" srcset="./images/tablet/portfolio/img.webp 1x, ./images/tablet/portfolio/img@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width: 768px)" srcset="./images/tablet/portfolio/img.jpg 1x, ./images/tablet/portfolio/img@2x.jpg 2x"
+                                type="image/jpeg">
+                            
+                            <source media="(max-width: 767px)" srcset="./images/mobile/portfolio/img.webp 1x, ./images/mobile/portfolio/img@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(max-width: 767px)" srcset="./images/mobile/portfolio/img.jpg 1x, ./images/mobile/portfolio/img@2x.jpg 2x"
+                                type="image/jpeg">
+                            <img class="picture" src="./images/mobile/portfolio/img.jpg" alt="Игорь Демьяненко">
+                        </picture>
+            <!-- <img src="./images/Portfolio/img1.jpg" alt="Изображен макет сайт" width="370" height="294"> -->
         <p class="overlay">Технокряк это современная
             площадка распространения коронавируса.
             Компании используют эту платформу для цифрового
@@ -90,7 +111,26 @@
             <li class="examples-box" > <a class="type-link" href=""> <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p><img src="./images/Portfolio/img2.jpg" alt="Баскетболисты New Orlean vs Golden Star" width="370" height="294">
+                шпионажа и атак на защищённые сервера конкурентов. </p>
+                <!-- <img src="./images/Portfolio/img2.jpg" alt="Баскетболисты New Orlean vs Golden Star" width="370" height="294"> -->
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-1.webp 1x, ./images/deckstope/portfolio/img-1@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-1.jpg 1x, ./images/deckstope/portfolio/img-1@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-1.webp 1x, ./images/tablet/portfolio/img-1@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-1.jpg 1x, ./images/tablet/portfolio/img-1@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-1.webp 1x, ./images/mobile/portfolio/img-1@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-1.jpg 1x, ./images/mobile/portfolio/img-1@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-1.jpg" alt="Игорь Демьяненко">
+                </picture>
                 </div>
                 <div class="type-cover"> 
                 <h3 class="examples">Постер New Orlean vs Golden Star</h3>
@@ -104,7 +144,27 @@
                 <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p> <img src="./images/Portfolio/img3.jpg" alt="Логотип ресторана" width="370" height= "294"> 
+                шпионажа и атак на защищённые сервера конкурентов. </p> 
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-2.webp 1x, ./images/deckstope/portfolio/img-2@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-2.jpg 1x, ./images/deckstope/portfolio/img-2@2x.jpg 2x"
+                        type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-2.webp 1x, ./images/tablet/portfolio/img-2@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-2.jpg 1x, ./images/tablet/portfolio/img-2@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-2.webp 1x, ./images/mobile/portfolio/img-2@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-2.jpg 1x, ./images/mobile/portfolio/img-2@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-2.jpg" alt="Игорь Демьяненко">
+                </picture>
+                <!-- <img src="./images/Portfolio/img3.jpg" alt="Логотип ресторана" width="370" height= "294">  -->
             </div>
                 <div class="type-cover"> 
                 <h3 class="examples">Ресторан Seafood</h3>
@@ -116,7 +176,28 @@
             <li class="examples-box">  <a class="type-link" href=""> <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p><img src="./images/Portfolio/img4.jpg" alt="Фото наушников" width="370" height= "294">
+                шпионажа и атак на защищённые сервера конкурентов. </p>
+                <!-- <img src="./images/Portfolio/img4.jpg" alt="Фото наушников" width="370" height= "294"> -->
+
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-3.webp 1x, ./images/deckstope/portfolio/img-3@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-3.jpg 1x, ./images/deckstope/portfolio/img-3@2x.jpg 2x"
+                        type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-3.webp 1x, ./images/tablet/portfolio/img-3@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-3.jpg 1x, ./images/tablet/portfolio/img-3@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-3.webp 1x, ./images/mobile/portfolio/img-3@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-3.jpg 1x, ./images/mobile/portfolio/img-3@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-3.jpg" alt="Игорь Демьяненко">
+                </picture>
             </div>
                 <div class="type-cover">
                 <h3 class="examples">Проект Prime</h3>
@@ -129,7 +210,28 @@
                 <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p> <img src="./images/Portfolio/img5.jpg" alt="Изображены коробки" width="370" height="294">
+                 шпионажа и атак на защищённые сервера конкурентов.
+                  </p> 
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-3.webp 1x, ./images/deckstope/portfolio/img-3@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-3.jpg 1x, ./images/deckstope/portfolio/img-3@2x.jpg 2x"
+                        type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-4.webp 1x, ./images/tablet/portfolio/img-4@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-4.jpg 1x, ./images/tablet/portfolio/img-4@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-4.webp 1x, ./images/mobile/portfolio/img-4@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-4.jpg 1x, ./images/mobile/portfolio/img-4@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-4.jpg" alt="Игорь Демьяненко">
+                </picture>
+                  <!-- <img src="./images/Portfolio/img5.jpg" alt="Изображены коробки" width="370" height="294">  --> 
                 </div>
                 <div class="type-cover">
                 <h3 class="examples">Проект Boxes</h3>
@@ -141,7 +243,28 @@
             <li class="examples-box"> <a class="type-link" href=""> <div class="box-portfolio-img"> <p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p><img src="./images/Portfolio/img6.jpg" alt="Изображен монитор" width="370" height="294">
+                шпионажа и атак на защищённые сервера конкурентов. </p>
+
+                <!-- <img src="./images/Portfolio/img6.jpg" alt="Изображен монитор" width="370" height="294"> -->
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-5.webp 1x, ./images/deckstope/portfolio/img-5@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-5.jpg 1x, ./images/deckstope/portfolio/img-5@2x.jpg 2x"
+                        type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-5.webp 1x, ./images/tablet/portfolio/img-5@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-5.jpg 1x, ./images/tablet/portfolio/img-5@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-5.webp 1x, ./images/mobile/portfolio/img-5@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-5.jpg 1x, ./images/mobile/portfolio/img-5@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-5.jpg" alt="Игорь Демьяненко">
+                </picture>
             </div>
                 <div class="type-cover">
                 <h3 class="examples">Inspiration has no Borders</h3>
@@ -153,7 +276,26 @@
             <li class="examples-box"> <a class="type-link" href=""> <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p> <img src="./images/Portfolio/img7.jpg" alt="Изображение журнала" width="370" height="294">
+                шпионажа и атак на защищённые сервера конкурентов. </p> 
+                <!-- <img src="./images/Portfolio/img7.jpg" alt="Изображение журнала" width="370" height="294"> -->
+                <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="./images/deckstope/portfolio/img-6.webp 1x, ./images/deckstope/portfolio/img-6@2x.webp 2x"
+                    type="image/webp">
+                <source media="(min-width: 1200px)"
+                    srcset="./images/deckstope/portfolio/img-6.jpg 1x, ./images/deckstope/portfolio/img-6@2x.jpg 2x" type="image/jpeg">
+                
+                <source media="(min-width: 768px)"
+                    srcset="./images/tablet/portfolio/img-6.webp 1x, ./images/tablet/portfolio/img-6@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 768px)"
+                    srcset="./images/tablet/portfolio/img-6.jpg 1x, ./images/tablet/portfolio/img-6@2x.jpg 2x" type="image/jpeg">
+                
+                <source media="(max-width: 767px)"
+                    srcset="./images/mobile/portfolio/img-6.webp 1x, ./images/mobile/portfolio/img-6@2x.webp 2x" type="image/webp">
+                <source media="(max-width: 767px)"
+                    srcset="./images/mobile/portfolio/img-6.jpg 1x, ./images/mobile/portfolio/img-6@2x.jpg 2x" type="image/jpeg">
+                <img class="picture" src="./images/mobile/portfolio/img-6.jpg" alt="Игорь Демьяненко">
+                </picture>
             </div>
                 <div class="type-cover">
                 <h3 class="examples">Издание Limited Edition</h3>
@@ -165,7 +307,27 @@
             <li class="examples-box"> <a class="type-link" href=""> <div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p> <img src="./images/Portfolio/img8.jpg" alt="Изоброжена бирка с символами" width="370" height="294">
+                шпионажа и атак на защищённые сервера конкурентов. </p>
+                 <!-- <img src="./images/Portfolio/img8.jpg" alt="Изоброжена бирка с символами" width="370" height="294"> -->
+                <picture>
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-7.webp 1x, ./images/deckstope/portfolio/img-7@2x.webp 2x"
+                        type="image/webp">
+                    <source media="(min-width: 1200px)"
+                        srcset="./images/deckstope/portfolio/img-7.jpg 1x, ./images/deckstope/portfolio/img-7@2x.jpg 2x"
+                        type="image/jpeg">
+                
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-7.webp 1x, ./images/tablet/portfolio/img-7@2x.webp 2x" type="image/webp">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/tablet/portfolio/img-7.jpg 1x, ./images/tablet/portfolio/img-7@2x.jpg 2x" type="image/jpeg">
+                
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-7.webp 1x, ./images/mobile/portfolio/img-7@2x.webp 2x" type="image/webp">
+                    <source media="(max-width: 767px)"
+                        srcset="./images/mobile/portfolio/img-7.jpg 1x, ./images/mobile/portfolio/img-7@2x.jpg 2x" type="image/jpeg">
+                    <img class="picture" src="./images/mobile/portfolio/img-7.jpg" alt="Игорь Демьяненко">
+                </picture>
             </div>
                 <div class="type-cover">
                 <h3 class="examples">Проект LAB</h3>
@@ -178,7 +340,26 @@
             <li class="examples-box"> <a class="type-link" href=""><div class="box-portfolio-img"><p class="overlay">Технокряк это современная
                 площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового
-                шпионажа и атак на защищённые сервера конкурентов. </p> <img src="./images/Portfolio/img9.jpg" alt="Изображен ноутбук" width="370" height="294">
+                шпионажа и атак на защищённые сервера конкурентов. </p> 
+                <!-- <img src="./images/Portfolio/img9.jpg" alt="Изображен ноутбук" width="370" height="294"> -->
+                <picture>
+                <source media="(min-width: 1200px)"
+                    srcset="./images/deckstope/portfolio/img-8.webp 1x, ./images/deckstope/portfolio/img-8@2x.webp 2x"
+                    type="image/webp">
+                <source media="(min-width: 1200px)"
+                    srcset="./images/deckstope/portfolio/img-8.jpg 1x, ./images/deckstope/portfolio/img-8@2x.jpg 2x" type="image/jpeg">
+                
+                <source media="(min-width: 768px)"
+                    srcset="./images/tablet/portfolio/img-8.webp 1x, ./images/tablet/portfolio/img-8@2x.webp 2x" type="image/webp">
+                <source media="(min-width: 768px)"
+                    srcset="./images/tablet/portfolio/img-8.jpg 1x, ./images/tablet/portfolio/img-8@2x.jpg 2x" type="image/jpeg">
+                
+                <source media="(max-width: 767px)"
+                    srcset="./images/mobile/portfolio/img-8.webp 1x, ./images/mobile/portfolio/img-8@2x.webp 2x" type="image/webp">
+                <source media="(max-width: 767px)"
+                    srcset="./images/mobile/portfolio/img-8.jpg 1x, ./images/mobile/portfolio/img-8@2x.jpg 2x" type="image/jpeg">
+                <img class="picture" src="./images/mobile/portfolio/img-8.jpg" alt="Игорь Демьяненко">
+                </picture>
                 </div>
                 <div class="type-cover">
                 <h3 class="examples">Growing Business</h3>

@@ -34,11 +34,22 @@
   }
 }
 .button-portfolio {
-  display: flex;
   list-style-type: none;
-  justify-content: center;
-  margin-bottom: 50px;
-  &:not(:last-child) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: 40px;
+  & :not(:last-child) {
     margin-right: 8px;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+.button-portfolio :nth-child(n + 4) {
+  @media screen and(max-width:767px) {
+    margin-top: 15px;
   }
 }
