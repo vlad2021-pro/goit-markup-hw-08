@@ -118,6 +118,11 @@
   color: #757575;
   margin-bottom: 30px;
   margin-left: 14px;
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16px;
+    margin-left: 7px;
+  }
   &::before {
     display: block;
     content: "";
@@ -141,4 +146,9 @@
   color: var(--accent-color);
   line-height: 1.71;
   text-decoration-line: underline;
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }

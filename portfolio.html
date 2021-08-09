@@ -33,7 +33,7 @@
             </li>
         </ul>
     </nav>
-    <button class="mobile-menu__button"><svg class="mobile-menu__icon">
+    <button class="mobile-menu__button " data-menu-button><svg class="mobile-menu__icon">
             <use class="mobile-menu__open" href="./images/icons/mobile-menu.svg#icon-menu"></use>
             <use class="mobile-menu__close" href="./images/icons/mobile-menu.svg#icon-close"></use>
         </svg> </button>
@@ -51,11 +51,54 @@
                     <use href="./images/icons/symbol-defs.svg#icon-smartphone"></use>
                 </svg>+38 096 111 11 11</a>
         </li>
-
-
-
     </ul>
     </div>
+    <div class="mobile-menu" data-menu>
+    
+        <nav class="mobile-nav">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link " href="./index.html">Студия</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link current__link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a class="mobile-nav__link" href="">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobile-contacts__case">
+            <ul class="mobile-contacts">
+                <li class="mobile-contacts__item">
+                    <a class="mobile-contacts__link mobile-contacts__link-tel" href="tel:+380961111111">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+                <li class="mobile-contacts__item">
+                    <a class="mobile-contacts__link mobile-contacts__link-mail" href="mailto:info@devstudio.com">
+                        info@devstudio.com
+                    </a>
+                </li>
+            </ul>
+            <ul class="mobile-menu__sociale-list ">
+                <li class="mobile-menu__sociale-item border">
+                    <a class="mobile-menu__sociale-link" lang="en" href="#">Instagram</a>
+                </li>
+                <li class="mobile-menu__sociale-item border">
+                    <a class="mobile-menu__sociale-link" lang="en" href="#">Twitter</a>
+                </li>
+                <li class="mobile-menu__sociale-item border">
+                    <a class="mobile-menu__sociale-link" lang="en" href="#">Facebook</a>
+                </li>
+                <li class="mobile-menu__sociale-item">
+                    <a class="mobile-menu__sociale-link" lang="en" href="#">Linkedin</a>
+                </li>
+            </ul>
+        </div>
+    
+    </div>
+
 
 </header>
 <main>
@@ -78,7 +121,7 @@
                 <a class="type-link" href=""> 
                     <div class="box-portfolio-img">
                         <picture>
-                            <source media="(min-width: 1200px)" srcset="./images/deckstope/portfolio/img1.webp 1x, ./images/deckstope/portfolio/img@2x.webp 2x"
+                            <source media="(min-width: 1200px)" srcset="./images/deckstope/portfolio/img.webp 1x, ./images/deckstope/portfolio/img@2x.webp 2x"
                                 type="image/webp">
                             <source media="(min-width: 1200px)" srcset="./images/deckstope/portfolio/img.jpg 1x, ./images/deckstope/portfolio/img@2x.jpg 2x"
                                 type="image/jpeg">
@@ -92,7 +135,7 @@
                                 type="image/webp">
                             <source media="(max-width: 767px)" srcset="./images/mobile/portfolio/img.jpg 1x, ./images/mobile/portfolio/img@2x.jpg 2x"
                                 type="image/jpeg">
-                            <img class="picture" src="./images/mobile/portfolio/img.jpg" alt="Игорь Демьяненко">
+                            <img class="picture" src="./images/mobile/portfolio/img.jpg">
                         </picture>
             <!-- <img src="./images/Portfolio/img1.jpg" alt="Изображен макет сайт" width="370" height="294"> -->
         <p class="overlay">Технокряк это современная
@@ -443,6 +486,7 @@
             </div>
         </div>
     </footer>
-
+<script src="./JS/mobile-menu.js"></script>
 </body>
+
 </html>

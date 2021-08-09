@@ -9,6 +9,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media screen and (max-width: 779px) {
+    margin-top: 40px;
+  }
 }
 .examples-box {
   margin-top: 30px;
