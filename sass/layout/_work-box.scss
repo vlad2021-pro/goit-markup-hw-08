@@ -2,7 +2,6 @@
   display: block;
   // flex-wrap: wrap;
   list-style-type: none;
-  margin-top: -30px;
   // margin-left: -30px;
   // margin-bottom: 94px;
   @media screen and (min-width: 780px) {
@@ -11,7 +10,7 @@
   }
 
   @media screen and (max-width: 779px) {
-    // margin-top: 40px;
+    margin-top: 40px;
   }
 }
 .examples-box {

@@ -1,7 +1,6 @@
 .section-clients {
   background: #ffffff;
 }
-
 .clients-title {
   text-align: center;
   color: var(--primary-texr-color);
@@ -14,15 +13,15 @@
     margin-bottom: 50px;
   }
 }
-.section-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and(min-width:480px) {
+  .section-clients {
+    padding-top: 60px;
+  }
 }
 
 .clients-list {
   display: flex;
   flex-wrap: wrap;
-  // margin-top: -30px;
   margin: -15px;
   list-style-type: none;
 }

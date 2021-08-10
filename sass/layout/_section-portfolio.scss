@@ -2,4 +2,12 @@
   color: var(--primary-texr-color);
   padding-bottom: 94px;
   padding-top: 94px;
+  @media screen and(min-width:480px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  @media screen and(min-width:780px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
 }
