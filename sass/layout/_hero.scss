@@ -1,24 +1,80 @@
 .hero {
-  background-color: var(--color-baner);
-  background-image: url(/images/images/deckstope/bg-main.jpg);
-  padding: 168px 0;
-  width: 100%;
-
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(/images/images/deckstope/bg-main.jpg);
-
+  background-color: #2f303a;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  @media screen and (min-width: 768px) {
+  padding: 118px 0px;
+
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/new-pictures/mobile/hero-mobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(/images/new-pictures/mobile/hero-mobile.webp);
+
+  @media screen and(min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/images/images/tablet/bg-main.jpg);
+      url(/images/new-pictures/mobile/hero-mobile@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/new-pictures/mobile/hero-mobile@2x.webp);
   }
-  @media screen and (min-width: 480px) {
+
+  @media screen and(min-width:481px) {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-      url(/images/images/mobile/bg-main@2x.jpg);
+      url(/images/new-pictures/tablet/hero-tablet.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(//images/new-pictures/tablet/hero-tablet.webp);
+
+    @media screen and(min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/new-pictures/tablet/hero-tablet@2x.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/new-pictures/tablet/hero-tablet@2x.webp);
+    }
+  }
+
+  @media screen and(min-width:768px) {
+    max-width: 1600px;
+    padding: 200px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/new-pictures/desctope/hero-desk.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+      url(/images/new-pictures/desctope/hero-desk.webp);
+
+    @media screen and(min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/new-pictures/desctope/hero-desk@2x.jpg);
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+        url(/images/new-pictures/desctope/hero-desk@2x.webp);
+    }
   }
 }
+//   background-color: var(--color-baner);
+//   background-image: url(/images/images/deckstope/bg-main.jpg);
+//   padding: 168px 0;
+//   width: 100%;
+
+//   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(/images/images/deckstope/bg-main.jpg);
+
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-size: cover;
+//   @media screen and (min-width: 768px) {
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url(/images/images/tablet/bg-main.jpg);
+//   }
+//   @media screen and (min-width: 480px) {
+//     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//       url(/images/hero-mobile@2x.jpg);
+//   }
+// }
 
 .hero-title {
   color: var(--white-color);
