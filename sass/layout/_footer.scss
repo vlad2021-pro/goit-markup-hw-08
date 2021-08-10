@@ -19,9 +19,6 @@
   & :hover {
     color: var(--accent-color);
   }
-  @media screen and (min-width: 480px) {
-    margin-bottom: 60px;
-  }
 }
 .logo-white {
   color: var(--white-color);
@@ -32,8 +29,8 @@
 }
 .footer-address {
   margin-top: 20px;
-  @media screen and (min-width: 480px) {
-    margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
   }
 }
 .address {
@@ -95,6 +92,12 @@
   @media screen and (min-width: 480px) {
     margin-bottom: 60px;
   }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
 }
 .current-container {
   // display: flex;
@@ -129,6 +132,9 @@
   // margin-left: 93px;
   @media screen and (min-width: 480px) {
     justify-content: center;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
   }
 }
 .subscription-title {
@@ -188,5 +194,11 @@
     & {
       display: block;
     }
+  }
+}
+
+.logo-container {
+  @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
   }
 }

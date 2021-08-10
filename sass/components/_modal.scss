@@ -59,6 +59,7 @@
 
 .nav-current {
   position: relative;
+  padding-bottom: 32px;
   &::after {
     content: "";
     display: block;

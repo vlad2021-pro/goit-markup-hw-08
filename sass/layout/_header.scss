@@ -59,11 +59,16 @@
   }
 }
 .mobile-menu.is-open {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   transform: translateX(0);
 }
 
 .mobile-nav__list {
-  margin-bottom: 300px;
+  // margin-bottom: 300px;
   list-style-type: none;
 }
 

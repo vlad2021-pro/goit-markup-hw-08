@@ -9,17 +9,15 @@
 .section-features {
   list-style-type: none;
   // display: flex;
-  @media screen and (min-width: 480px) {
-    margin-top: 60px;
-  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
-    margin-top: 60px;
+    // margin-top: 60px;
   }
   @media screen and (min-width: 1200px) {
-    margin-top: 94px;
+    // margin-top: 94px;
   }
 }
 
@@ -37,7 +35,7 @@
 .advantages {
   // margin-right: 30px;
   &:last-child {
-    margin-right: 0px;
+    margin-right: 15px;
   }
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 60px) / 2);
