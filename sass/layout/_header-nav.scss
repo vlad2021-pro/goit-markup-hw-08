@@ -36,20 +36,22 @@
   color: var(--accent-color);
   text-decoration: none;
 }
-.mobile-menu__button {
-  outline: none;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  margin-left: auto;
-  padding: 0;
-  z-index: 11;
-  &:active {
-    fill: var(--accent-color);
-  }
-  @media screen and (min-width: 768px) {
-    & {
-      display: none;
-    }
-  }
-}
+// .mobile-menu__button {
+//   outline: none;
+//   cursor: pointer;
+//   background-color: gold;
+//   border: none;
+//   width: 40px;
+//   height: 40px;
+//   margin-left: auto;
+//   padding: 0;
+//   z-index: 111111;
+//   &:active {
+//     fill: var(--accent-color);
+//   }
+//   @media screen and (min-width: 768px) {
+//     & {
+//       display: none;
+//     }
+//   }
+// }

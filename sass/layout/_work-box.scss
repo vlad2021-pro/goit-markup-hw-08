@@ -1,5 +1,6 @@
 .work-box {
   display: block;
+  margin: -15px;
   // flex-wrap: wrap;
   list-style-type: none;
   // margin-left: -30px;
@@ -16,6 +17,15 @@
 .examples-box {
   margin-top: 30px;
   // margin-left: 30px;
+  @media screen and(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+  @media screen and(min-width:1200px) {
+    flex-basis: calc((100% - 90px) / 3);
+  }
 }
 
 .overlay {
