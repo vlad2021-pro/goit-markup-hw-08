@@ -109,9 +109,11 @@ body {
   line-height: 1.19;
 }
 
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+@media screen and (max-width: 769px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 
 .navigation {
@@ -536,10 +538,6 @@ body {
   }
 }
 
-.advantages:last-child {
-  margin-right: 15px;
-}
-
 @media screen and (min-width: 768px) {
   .advantages {
     flex-basis: calc((100% - 60px) / 2);
@@ -607,8 +605,10 @@ body {
   }
 }
 
-.masters-list:not(:first-child) {
-  margin-top: 30px;
+@media screen and (max-width: 768px) {
+  .masters-list:not(:first-child) {
+    margin-top: 30px;
+  }
 }
 
 .section-team {
@@ -1161,10 +1161,6 @@ body {
   }
 }
 
-.examples-box {
-  margin-top: 30px;
-}
-
 @media screen and (min-width: 768px) {
   .examples-box {
     display: flex;
@@ -1177,6 +1173,12 @@ body {
 @media screen and (min-width: 1200px) {
   .examples-box {
     flex-basis: calc((100% - 90px) / 3);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .examples-box:not(:last-child) {
+    margin-top: 30px;
   }
 }
 

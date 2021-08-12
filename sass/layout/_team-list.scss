@@ -33,9 +33,12 @@
     margin: 15px;
   }
 }
-.masters-list:not(:first-child) {
-  margin-top: 30px;
+@media screen and(max-width:768px) {
+  .masters-list:not(:first-child) {
+    margin-top: 30px;
+  }
 }
+
 .section-team {
   background-color: var(--current-fon-color);
   padding-top: 94px;

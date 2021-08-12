@@ -1,8 +1,9 @@
 // Мобильная версия ---------
-
-.header {
-  padding-top: 16px;
-  padding-bottom: 16px;
+@media screen and(max-width:769px) {
+  .header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
 }
 .navigation {
   display: flex;
